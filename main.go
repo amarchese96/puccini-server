@@ -1,10 +1,10 @@
 package main
 
 import (
+	"github.com/amarchese96/puccini-server/puccini"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )
-import "github.com/amarchese96/puccini-server/puccini"
 
 type compileRequest struct {
 	ServiceTemplateUrl string `json:"serviceTemplateUrl"`
@@ -46,5 +46,5 @@ func main() {
 	router := gin.Default()
 	router.POST("/compile-url", compileFromUrl)
 
-	router.Run("localhost:8080")
+	router.Run("0.0.0.0:8080")
 }
