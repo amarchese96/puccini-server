@@ -1,6 +1,5 @@
 package puccini
 
-import "C"
 import (
 	"fmt"
 	"github.com/tliron/kutil/ard"
