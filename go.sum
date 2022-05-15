@@ -815,8 +815,8 @@ github.com/syndtr/gocapability v0.0.0-20170704070218-db04d3cc01c8/go.mod h1:hkRG
 github.com/syndtr/gocapability v0.0.0-20180916011248-d98352740cb2/go.mod h1:hkRG7XYTFWNJGYcbNJQlaLq0fg1yr4J4t/NcTQtrfww=
 github.com/syndtr/gocapability v0.0.0-20200815063812-42c35b437635/go.mod h1:hkRG7XYTFWNJGYcbNJQlaLq0fg1yr4J4t/NcTQtrfww=
 github.com/tchap/go-patricia v2.2.6+incompatible/go.mod h1:bmLyhP68RS6kStMGxByiQ23RP/odRBOTVjwp2cDyi6I=
-github.com/tliron/kutil v0.1.58 h1:N0HFF8y4Uw1PY9A3VZim0oOdlEb8yGtzE3tRM+omNfw=
-github.com/tliron/kutil v0.1.58/go.mod h1:dkQfjkszYJEQ6UoDTOuNqE1PZvaM4rLHolkHpLUKu28=
+github.com/tliron/kutil v0.1.57 h1:o9n8k+ZaSAuqc8lgD9M7Tji3uEaY+qfPijovKuxHhY4=
+github.com/tliron/kutil v0.1.57/go.mod h1:qRfrLRuSs8KXsK8KBr7NM/kaXEODxkOqjwlqEzoJKro=
 github.com/tliron/puccini v0.20.1 h1:O0uEMHXRO3uO9Ybb9urCDfcbTgZdcSa/CCij74Enp8o=
 github.com/tliron/puccini v0.20.1/go.mod h1:GhLV6w3U7lJk9YKlgZ3vxg/+we7K0Jc1oV0yB+NyAi4=
 github.com/tliron/yamlkeys v1.3.5 h1:zfNwrtxNP9pyj2UJV8SgLj6jUP4bsHwFtBByZyIg4AM=
