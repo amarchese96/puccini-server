@@ -79,6 +79,13 @@ func Compile(serviceTemplateUrl, scriptletName, scriptletUrl string, inputs stri
 		return "", err
 	}
 
+	js.Resolve(clout, problems, urlContext, true, "", false, false, true)
+	if !problems.Empty() {
+		err = fmt.Errorf("problems encountered during relationships resolving: %v", problems)
+		log.Error(err.Error())
+		return "", err
+	}
+
 	if scriptletName == "" {
 		return format.EncodeYAML(clout, "", false)
 	} else {
