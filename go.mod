@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/gin-gonic/gin v1.7.7
-	github.com/tliron/kutil v0.1.57
+	github.com/tliron/kutil v0.1.58
 	github.com/tliron/puccini v0.20.1
 	github.com/tliron/yamlkeys v1.3.5
 )
